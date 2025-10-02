@@ -1,0 +1,192 @@
+@media (max-width:800px) {
+    .navlogo{
+        font-size: 3.5vw;
+    }
+    .navlist li a{
+        display: none;
+    }
+    .icon{
+        display: block;
+        gap: 3.5vw;
+    }
+    .icon i{
+        font-size: 2.8vw;
+    }
+    
+    #active{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 20vh;
+        right: 0;
+        flex-direction: column;
+        /* color: white; */
+        gap: 30px;
+        width: 200px;
+        height: 0;
+        overflow: hidden;
+        background-color:black;
+        transition: all 0.5s ease;
+        /* font-size: 10vw; */
+        /* transform: translatey(-30); */
+    }
+    .show li a{
+        display: flex;
+        color: white;
+        font-size: 5vw;
+        overflow: hidden;
+    }
+    .show{
+        display: block;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: white;
+        /* transform: translatey(-30); */
+    }
+    .text h1{
+        line-height: 75%;
+    }
+    button{
+        width: 20vw;
+        height: 8vh;
+        font-size: 1.8rem;
+    }
+    .video {
+        height:50vh;
+    }
+    .underline{
+        font-size: 2.6vw;
+    }
+    .picture{
+        flex-direction: column;
+        justify-content: center;
+        /* flex-shrink: 0; */
+    }
+    .image{
+        height: 75vh;
+        width: 45%;
+    }
+    .menu{
+        width: 27vw;
+        gap: 2vw;
+    }
+    .picture-video{
+        flex-direction: column;
+        justify-content: center;
+        padding: 4vh 0;
+    }
+    .video{
+        height: 75vh;
+        width: 45%;
+    }
+}
+@media(max-width:700px) {
+    .navlogo{
+        font-size: 4vw;
+    }
+    .navlist{
+        gap: 40px;
+    }
+    .icon i{
+        font-size: 25px;
+    }  
+    button{
+        width: 25vw;
+    }
+    .video-main{
+        height: 50%;
+    }
+    .image{
+        left: 0vw;
+        height: 55vh;
+        width: 340px;
+    }
+    .menu{
+        width: 200px;
+    }
+    .picture{
+        align-items: center;
+        gap: 5vw;
+    }
+    .picture-video{
+        align-items: center;
+        gap: 5vw;
+    }
+    .video{
+        left: 0vw;
+        height: 55vh;
+        width: 340px;
+    }
+    .icons{
+        font-size: 4vw;        
+    }
+    .icons i{
+        padding: 0 2vw;
+    }
+}
+@media(max-width:500px) { 
+    .navbar{
+        padding: 4vh 4vw;
+    }
+    .navlogo{
+        font-size: 35px;
+
+    }
+    .icon i{
+        font-size: 35px;
+    }
+    .text{
+        padding: 0 0vw;
+        height: 45vh;
+    }
+    .text h1{
+        width: 100%;
+        font-size: 15vw;
+        line-height: 80%;
+    }
+    button{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        width: 190px;
+        height: 50px;
+    }
+    .video{
+        height: 200px;
+    }
+    .underline{
+        font-size: 15px;
+    }
+    .picture{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;        
+    }
+    .image{
+        height: 300px;
+        width: 320px;
+    }
+    .video{
+        height: 300px;
+        width: 320px;
+    }
+    .icons{
+        font-size: 8vw;        
+    }
+    .icons i{
+        padding: 0 2vw;
+    }
+}
+
+
+@media (max-width:340px) {
+    body,html{
+        overflow: hidden;
+        overflow-y: scroll;
+    } 
+}

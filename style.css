@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+    
+    /* font-size: 62.5%; */
+}
+*::selection{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    /* position: fixed; */
+    /* z-index: 1; */
+    height: 18vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4vh 2vw;
+}
+.navlogo{
+    font-size: 2.5vw;
+    line-height: 80%;
+    font-weight: bold;
+    letter-spacing: 0%;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    gap: 4.5vw;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-family: sans-serif;
+    transition: all 0.5s ease;
+}
+
+.navlist li a:hover{
+    color: grey;
+    text-decoration:underline;
+}
+.icon i{
+    /* display: flex; */
+    font-size: 1.5vw;
+    padding: 1.5vw;
+}
+.active{
+    display: none;
+}
+
+.text{
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+   
+}
+.text h1{
+    text-align: center;
+    font-size: 17vw;
+    letter-spacing: -1px;
+    line-height: 70%;
+    /* font-weight:bolder; */
+    color: transparent;
+    -webkit-text-stroke: 1.9px black;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.text h1:hover{
+    color: black;
+    
+}
+
+button{
+    margin-top: 15vh;
+    width: 13vw;
+    height: 7vh;
+    border: 1px solid black;
+    font-size: 1.5vw;
+    border-radius: 15vw;
+    margin-bottom: 2vh;
+}
+
+
+.video-main{
+    height: 100vh;
+    width: 100%;
+    
+}
+.video-main video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.underline{
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    font-size: 2vw;
+    padding:  0 1vw;
+    padding-top: 5vh;
+}
+
+.picture{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    border-top-left-radius:5vw;
+    border-top-right-radius: 5vw;
+    background-color: black;
+    padding-top: 3vw;
+    flex-wrap: wrap;
+    
+}
+.image{
+    
+    height: 95vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* bottom: 20vh; */
+
+}
+.m1{
+    background-image: url(./images/cardimg1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6vw;
+    border-radius: 2vw;
+
+}
+.m2{
+    background-image: url(./images/cardimg2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50vw;
+    /* bottom: 20vh; */
+    border-radius: 2vw;
+}
+.m3{
+    background-image: url(./images/cardimg3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6vw;
+    /* bottom: 40vh; */
+    border-radius: 2vw;
+}
+
+.menu{
+    height: 9vh;
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    border-radius: 10vw;
+    background-color: white;
+    padding: 0 5vw;
+    gap: 2.5vw;
+}
+
+.picture-video{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius:5vw;
+    border-top-right-radius: 5vw;
+    margin-top: 2vh;
+    padding: 3vw 0vw;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+.video{
+    height: 90vh;
+    width: 40%;
+    border-radius: 2vw;
+     position: relative;
+}
+.video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+.vd1{
+    left: 50vw;
+}
+.vd2{
+    left: 10vw;
+    /* bottom: 20vh; */
+}
+.vd3{
+    left: 50vw;
+    /* bottom: 40vh; */
+}
+
+.footer{
+    overflow: hidden;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    border-top-left-radius:5vw;
+    border-top-right-radius: 5vw;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4vh 0; */
+    padding-top: 4vh;
+    gap: 2vw;
+    font-size: 2.5vw;
+    color: white;
+}
+.footer h1{
+    padding-top: 1vh;
+    color: white;
+    text-align: center;
+    padding-bottom: 9vh;
+}
+
+
