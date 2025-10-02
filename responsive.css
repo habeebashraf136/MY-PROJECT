@@ -6,12 +6,13 @@
         display: none;
     }
     .icon{
-        display: block;
+        display: flex;
         gap: 3.5vw;
     }
     .icon i{
         font-size: 2.8vw;
     }
+    
     
     .active{
         display: block;
@@ -191,3 +192,4 @@
     } 
 
 }
+
