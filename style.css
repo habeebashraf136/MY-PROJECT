@@ -140,7 +140,7 @@ button{
 
 }
 .m1{
-    background-image: url(./images/cardimg1.png);
+    background-image: url(cardimg1.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -151,7 +151,7 @@ button{
 
 }
 .m2{
-    background-image: url(./images/cardimg2.jpg);
+    background-image: url(cardimg2.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -162,7 +162,7 @@ button{
     border-radius: 2vw;
 }
 .m3{
-    background-image: url(./images/cardimg3.jpg);
+    background-image: url(cardimg3.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -247,5 +247,6 @@ button{
     text-align: center;
     padding-bottom: 9vh;
 }
+
 
 
